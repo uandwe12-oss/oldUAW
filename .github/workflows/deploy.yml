@@ -1,4 +1,4 @@
-name: Deploy Website to GoDaddy (FTP)
+name: FTP Deploy to GoDaddy
 
 on:
   push:
@@ -10,15 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Deploy via FTP to GoDaddy
+      - name: Deploy to GoDaddy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: w5g.e02.mywebsitetransfer.com
-          username: pf6a4l6860tm
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          port: 21
-          local-dir: ./
-          server-dir: /public_html/
+          server-dir: /
