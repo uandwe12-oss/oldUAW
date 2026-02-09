@@ -1,4 +1,4 @@
-name: Auto Deploy to GoDaddy (SFTP)
+name: Auto Deploy to GoDaddy (FTPS)
 
 on:
   push:
@@ -13,13 +13,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Upload to GoDaddy via SFTP
+      - name: Deploy via FTPS (GoDaddy)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: w5g.e02.mywebsitetransfer.com
+          username: githubdeploy@uandwe.com
           password: ${{ secrets.FTP_PASSWORD }}
-          port: ${{ secrets.FTP_PORT }}
+          protocol: ftps
+          port: 21
           local-dir: ./
           server-dir: /public_html/
           dangerous-clean-slate: true
