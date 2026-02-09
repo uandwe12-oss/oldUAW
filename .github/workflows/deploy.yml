@@ -21,4 +21,5 @@ jobs:
 
 
           # GoDaddy live root
-          server-dir: /public_html/
+          server-dir: /home/pf6a4l6860tm/public_html
+
