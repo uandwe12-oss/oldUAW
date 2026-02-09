@@ -18,4 +18,9 @@ jobs:
           server: w5g.e02.mywebsitetransfer.com
           username: githubdeploy@uandwe.com
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /
+
+          # 🔥 THIS IS THE FIX
+          local-dir: oldUAW/
+
+          # GoDaddy live root
+          server-dir: /public_html/
