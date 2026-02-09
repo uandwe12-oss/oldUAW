@@ -138,13 +138,109 @@
     </div>
     <div class="section-3" data-aos="fade-up" data-aos-delay="100">
         <h1 class="jobs-title" style="font-weight: 700; color: orange;">
-            Current Job Openings 
+            Current Job Openings
         </h1>
         <div class="jobs">
 
 
-       
-           
+            <!-- JOB 1 -->
+            <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
+                <div class="card-body">
+                    <h5 class="card-title">Farm Engineer</h5>
+                    <div class="job-details">
+                        <p><i class="bi bi-geo-alt"></i> Santa Clara, California</p>
+                        <p><i class="bi bi-briefcase"></i> Full Time</p>
+                    </div>
+                    <div class="card-buttons">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#applyNowModal" onclick="on('overlay1-farm', 'apply-form-farm')">Apply
+                            Now</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#jobDescriptionModal"
+                            onclick="on('overlay2-farm', 'job-description-farm')">Job
+                            Description</button>
+                    </div>
+                    <div class="overlay" id="overlay1-farm" onclick="off('overlay1-farm', 'apply-form-farm')"></div>
+                    <form class="apply-form" id="apply-form-farm"
+                        action="mailto:recruit@uandwe.com?subject=Job Application" method="POST" enctype="text/plain">
+                        <div class="form-title">
+                            Application Form
+                        </div>
+                        <div class="form-field">
+                            <input type="text" id="job-title" name="job-title" value="Farm Engineer" hidden>
+                        </div>
+                        <div class="form-field">
+                            <label for="first-name">First Name:</label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name">Last Name:</label>
+                            <input type="text" id="last-name" name="last-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email ID:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="contact-number">Contact Number:</label>
+                            <input type="tel" id="contact-number" name="contact-number" required>
+                        </div>
+                        <div class="form-note" style="color: red; margin-bottom: 10px;">
+                            <h6>Note:</h6>
+                            <ul>
+                                <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
+                                    resume before sending the mail.</li>
+                                <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
+                                    the necessary details and enclosed resume.</li>
+                            </ul>
+                        </div>
+                        <button type="submit" class="submit-button">Next</button>
+                    </form>
+                    <div class="overlay" id="overlay2-farm" onclick="off('overlay2-farm', 'job-description-farm')">
+                    </div>
+                    <div class="job-description" id="job-description-farm">
+                        <h2>Job Description</h2>
+                        <h3>Location: <span style="color: black"> Santa Clara, California</span></h3>
+
+                        <h3>Job Responsibilities:</h3>
+                        <ul>
+                            <li>Set up x86 SoC platforms for functional validation.</li>
+                            <li>Setting up of thermal solutions, debugger, oscilloscopes, and power measurement
+                                equipment.</li>
+                            <li>Configuring multi-boot OS with required SW, applications, tools, frameworks.</li>
+                            <li>Independently manage a group of systems to ensure stability and uninterrupted operation.
+                            </li>
+                            <li>Understand basic HW platform features – Chipset compatibility, Memory slots, expansion
+                                slots, connectivity ports, BIOS/UEFI settings.</li>
+                            <li>Basic scripting that includes modifying existing automation scripts where applicable.
+                            </li>
+                            <li>Basic understanding of different thermal solutions (e.g., air cooling, liquid cooling)
+                                and monitor temperature performance regularly – includes regular maintenance.</li>
+                            <li>Ability to configure and manage client applications on different OS environments.</li>
+                            <li>Ability to understand Client-Server workflow process and ability to analyze job logs,
+                                client logs, and test logs to identify and troubleshoot issues effectively.</li>
+                            <li>Strong troubleshooting skills to diagnose and resolve hardware, OS, and software-related
+                                issues.</li>
+                        </ul>
+
+                        <h3>Requirements:</h3>
+                        <ul>
+                            <li>Familiarity with assembly and testing X86/GPU based systems.</li>
+                            <li>Familiarity in executing tests under Windows and Linux environment.</li>
+                            <li>Basic knowledge on scripting and MS Excel.</li>
+                            <li>Understanding of test and measurement equipment such as oscilloscope, DAQ and DMM.</li>
+                            <li>Experience in silicon testing environment is preferred.</li>
+                            <li>Excellent organizational and documentation skills.</li>
+                        </ul>
+
+                        <h3>Qualifications:</h3>
+                        <ul>
+                            <li>B.S degree with Electrical/Electronic as major subjects.</li>
+                            <li>5 – 10 years of experience.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
             <!-- JOB 2 -->
             <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
                 <div class="card-body">
@@ -363,7 +459,7 @@
                 <div class="card-body">
                     <h5 class="card-title">IO Electrical Validation Engineer</h5>
                     <div class="job-details">
-                        <p><i class="bi bi-geo-alt"></i> Bangalore,India</p>
+                        <p><i class="bi bi-geo-alt"></i> Bangalore, India</p>
                         <p><i class="bi bi-briefcase"></i> Full Time</p>
                     </div>
                     <div class="card-buttons">
