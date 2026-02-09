@@ -18,11 +18,11 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -p ${{ secrets.SSH_PORT }} ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+          ssh-keyscan -p 22 w5g.e02.mywebsitetransfer.com >> ~/.ssh/known_hosts
 
       - name: Deploy files to server
         run: |
           rsync -avz --delete \
           --exclude='.git*' \
           ./ \
-          ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/pf6a4l6860tm/public_html
+          pf6a4l6860tm@w5g.e02.mywebsitetransfer.com:/home/pf6a4l6860tm/public_html
