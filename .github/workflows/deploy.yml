@@ -17,5 +17,6 @@ jobs:
           server: w5g.e02.mywebsitetransfer.com
           username: githubdeploy@uandwe.com
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: oldUAW/
+          local-dir: ./
           server-dir: /public_html/
+
