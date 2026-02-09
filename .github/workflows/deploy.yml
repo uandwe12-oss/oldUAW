@@ -16,7 +16,7 @@ jobs:
       - name: Deploy via FTP to GoDaddy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp.uandwe.com
+          server: w5g.e02.mywebsitetransfer.com
           username: pf6a4l6860tm
           password: ${{ secrets.FTP_PASSWORD }}
           port: 21
