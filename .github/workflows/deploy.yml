@@ -1,4 +1,4 @@
-name: Auto Deploy to GoDaddy (FTPS)
+name: FTP Deploy to GoDaddy
 
 on:
   push:
@@ -8,19 +8,16 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Deploy via FTPS (GoDaddy)
+      - name: Deploy via FTPS
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: w5g.e02.mywebsitetransfer.com
-          username: githubdeploy@uandwe.com
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           port: 21
-          local-dir: ./
           server-dir: /public_html/
-          dangerous-clean-slate: true
