@@ -19,8 +19,6 @@ jobs:
           username: githubdeploy@uandwe.com
           password: ${{ secrets.FTP_PASSWORD }}
 
-          # 🔥 THIS IS THE FIX
-          local-dir: oldUAW/
 
           # GoDaddy live root
           server-dir: /public_html/
