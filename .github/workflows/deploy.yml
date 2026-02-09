@@ -9,15 +9,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Deploy via FTPS
+      - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          server: w5g.e02.mywebsitetransfer.com
+          username: githubdeploy@uandwe.com
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps
-          port: 21
+          local-dir: oldUAW/
           server-dir: /public_html/
