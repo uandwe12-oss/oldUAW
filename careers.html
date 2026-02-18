@@ -64,7 +64,7 @@
                 services (VLSI, Product development and services in Embedded Systems).</p>
         </div>
         <div class="about-hero-image">
-            <img src="assets\img\people-search-animate.svg" alt="About us" class="about-image">
+            <img src="assets/img/people-search-animate.svg" alt="About us" class="about-image">
         </div>
     </div>
     <div class="section-2 text-center" data-aos="fade-up" data-aos-delay="100">
@@ -142,11 +142,10 @@
         </h1>
         <div class="jobs">
 
-
             <!-- JOB 1 -->
             <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
                 <div class="card-body">
-                    <h5 class="card-title">Farm Technician  Engineer</h5>
+                    <h5 class="card-title">Farm Technician Engineer</h5>
                     <div class="job-details">
                         <p><i class="bi bi-geo-alt"></i> Santa Clara, California</p>
                         <p><i class="bi bi-briefcase"></i> Full Time</p>
@@ -167,23 +166,23 @@
                             Application Form
                         </div>
                         <div class="form-field">
-                            <input type="text" id="job-title" name="job-title" value="Farm Engineer" hidden>
+                            <input type="text" id="job-title-farm" name="job-title" value="Farm Technician Engineer" hidden>
                         </div>
                         <div class="form-field">
-                            <label for="first-name">First Name:</label>
-                            <input type="text" id="first-name" name="first-name" required>
+                            <label for="first-name-farm">First Name:</label>
+                            <input type="text" id="first-name-farm" name="first-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="last-name">Last Name:</label>
-                            <input type="text" id="last-name" name="last-name" required>
+                            <label for="last-name-farm">Last Name:</label>
+                            <input type="text" id="last-name-farm" name="last-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="email">Email ID:</label>
-                            <input type="email" id="email" name="email" required>
+                            <label for="email-farm">Email ID:</label>
+                            <input type="email" id="email-farm" name="email" required>
                         </div>
                         <div class="form-field">
-                            <label for="contact-number">Contact Number:</label>
-                            <input type="tel" id="contact-number" name="contact-number" required>
+                            <label for="contact-number-farm">Contact Number:</label>
+                            <input type="tel" id="contact-number-farm" name="contact-number" required>
                         </div>
                         <div class="form-note" style="color: red; margin-bottom: 10px;">
                             <h6>Note:</h6>
@@ -241,93 +240,94 @@
                     </div>
                 </div>
             </div>
+            
             <!-- JOB-2: CAD Engineer -->
-        <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
-            <div class="card-body">
-                <h5 class="card-title">CAD Engineer</h5>
-                <div class="job-details">
-                    <p><i class="bi bi-geo-alt"></i> Bangalore, India</p>
-                    <p><i class="bi bi-briefcase"></i> Full Time</p>
-                </div>
-                <div class="card-buttons">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
-                        onclick="on('overlay1-cad', 'apply-form-cad')">Apply
-                        Now</button>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                        data-bs-target="#jobDescriptionModal" onclick="on('overlay2-cad', 'job-description-cad')">Job
-                        Description</button>
-                </div>
-                <div class="overlay" id="overlay1-cad" onclick="off('overlay1-cad', 'apply-form-cad')"></div>
-                <form class="apply-form" id="apply-form-cad" action="mailto:recruit@uandwe.com?subject=Job Application"
-                    method="POST" enctype="text/plain">
-                    <div class="form-title">
-                        Application Form
+            <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
+                <div class="card-body">
+                    <h5 class="card-title">CAD Engineer</h5>
+                    <div class="job-details">
+                        <p><i class="bi bi-geo-alt"></i> Bangalore, India</p>
+                        <p><i class="bi bi-briefcase"></i> Full Time</p>
                     </div>
-                    <div class="form-field">
-                        <input type="text" id="job-title" name="job-title" value="CAD Engineer" hidden>
+                    <div class="card-buttons">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
+                            onclick="on('overlay1-cad', 'apply-form-cad')">Apply
+                            Now</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#jobDescriptionModal" onclick="on('overlay2-cad', 'job-description-cad')">Job
+                            Description</button>
                     </div>
-                    <div class="form-field">
-                        <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name" name="first-name" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name" name="last-name" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="email">Email ID:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="contact-number">Contact Number:</label>
-                        <input type="tel" id="contact-number" name="contact-number" required>
-                    </div>
-                    <div class="form-note" style="color: red; margin-bottom: 10px;">
-                        <h6>Note:</h6>
+                    <div class="overlay" id="overlay1-cad" onclick="off('overlay1-cad', 'apply-form-cad')"></div>
+                    <form class="apply-form" id="apply-form-cad" action="mailto:recruit@uandwe.com?subject=Job Application"
+                        method="POST" enctype="text/plain">
+                        <div class="form-title">
+                            Application Form
+                        </div>
+                        <div class="form-field">
+                            <input type="text" id="job-title-cad" name="job-title" value="CAD Engineer" hidden>
+                        </div>
+                        <div class="form-field">
+                            <label for="first-name-cad">First Name:</label>
+                            <input type="text" id="first-name-cad" name="first-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name-cad">Last Name:</label>
+                            <input type="text" id="last-name-cad" name="last-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email-cad">Email ID:</label>
+                            <input type="email" id="email-cad" name="email" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="contact-number-cad">Contact Number:</label>
+                            <input type="tel" id="contact-number-cad" name="contact-number" required>
+                        </div>
+                        <div class="form-note" style="color: red; margin-bottom: 10px;">
+                            <h6>Note:</h6>
+                            <ul>
+                                <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
+                                    resume before sending the mail.</li>
+                                <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
+                                    the necessary details and enclosed resume.</li>
+                            </ul>
+                        </div>
+                        <button type="submit" class="submit-button">Next</button>
+                    </form>
+                    <div class="overlay" id="overlay2-cad" onclick="off('overlay2-cad', 'job-description-cad')"></div>
+                    <div class="job-description" id="job-description-cad">
+                        <h2>Job Description</h2>
+                        <h3>Location: <span style="color: black"> Bangalore, India</span></h3>
+
+                        <h3>Job Responsibilities:</h3>
                         <ul>
-                            <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
-                                resume before sending the mail.</li>
-                            <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
-                                the necessary details and enclosed resume.</li>
+                            <li>Interface with the engineers to define and document issues</li>
+                            <li>Consult with the senior teammates to provide guidance as necessary</li>
+                            <li>Assist in documentation of tools and flows with respect to HDL simulation and verification
+                            </li>
+                            <li>Perform tool benchmarking and testing compliance</li>
+                        </ul>
+
+                        <h3>Qualifications & Skills:</h3>
+                        <ul>
+                            <li>Strong knowledge on digital circuits</li>
+                            <li>Familiar with any HDL (Verilog / VHDL)</li>
+                            <li>Exposure to Questa, Xcelium, and/or VCS is a plus</li>
+                            <li>Familiarity with Verdi, Visualizer is desirable</li>
+                            <li>Working knowledge of both Linux and Windows environments</li>
+                            <li>Ability to work effectively within a worldwide organization</li>
+                            <li>Self-motivated individual with excellent technical problem solving and debugging skills</li>
+                            <li>Strong written and verbal communication skills</li>
+                        </ul>
+
+                        <h3>Education & Experience:</h3>
+                        <ul>
+                            <li>Experience: 0 – 2 years</li>
+                            <li>Educational Qualification: B.E / B.Tech / M.E / M.Tech in Electronics or related subjects
+                            </li>
                         </ul>
                     </div>
-                    <button type="submit" class="submit-button">Next</button>
-                </form>
-                <div class="overlay" id="overlay2-cad" onclick="off('overlay2-cad', 'job-description-cad')"></div>
-                <div class="job-description" id="job-description-cad">
-                    <h2>Job Description</h2>
-                    <h3>Location: <span style="color: black"> Bangalore, India</span></h3>
-
-                    <h3>Job Responsibilities:</h3>
-                    <ul>
-                        <li>Interface with the engineers to define and document issues</li>
-                        <li>Consult with the senior teammates to provide guidance as necessary</li>
-                        <li>Assist in documentation of tools and flows with respect to HDL simulation and verification
-                        </li>
-                        <li>Perform tool benchmarking and testing compliance</li>
-                    </ul>
-
-                    <h3>Qualifications & Skills:</h3>
-                    <ul>
-                        <li>Strong knowledge on digital circuits</li>
-                        <li>Familiar with any HDL (Verilog / VHDL)</li>
-                        <li>Exposure to Questa, Xcelium, and/or VCS is a plus</li>
-                        <li>Familiarity with Verdi, Visualizer is desirable</li>
-                        <li>Working knowledge of both Linux and Windows environments</li>
-                        <li>Ability to work effectively within a worldwide organization</li>
-                        <li>Self-motivated individual with excellent technical problem solving and debugging skills</li>
-                        <li>Strong written and verbal communication skills</li>
-                    </ul>
-
-                    <h3>Education & Experience:</h3>
-                    <ul>
-                        <li>Experience: 0 – 2 years</li>
-                        <li>Educational Qualification: B.E / B.Tech / M.E / M.Tech in Electronics or related subjects
-                        </li>
-                    </ul>
                 </div>
             </div>
-        </div>
            
             <!-- JOB 3 -->
             <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
@@ -352,24 +352,24 @@
                             Application Form
                         </div>
                         <div class="form-field">
-                            <input type="text" id="job-title" name="job-title" value="IO Electrical Validation Engineer"
+                            <input type="text" id="job-title-io" name="job-title" value="IO Electrical Validation Engineer"
                                 hidden>
                         </div>
                         <div class="form-field">
-                            <label for="first-name">First Name:</label>
-                            <input type="text" id="first-name" name="first-name" required>
+                            <label for="first-name-io">First Name:</label>
+                            <input type="text" id="first-name-io" name="first-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="last-name">Last Name:</label>
-                            <input type="text" id="last-name" name="last-name" required>
+                            <label for="last-name-io">Last Name:</label>
+                            <input type="text" id="last-name-io" name="last-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="email">Email ID:</label>
-                            <input type="email" id="email" name="email" required>
+                            <label for="email-io">Email ID:</label>
+                            <input type="email" id="email-io" name="email" required>
                         </div>
                         <div class="form-field">
-                            <label for="contact-number">Contact Number:</label>
-                            <input type="tel" id="contact-number" name="contact-number" required>
+                            <label for="contact-number-io">Contact Number:</label>
+                            <input type="tel" id="contact-number-io" name="contact-number" required>
                         </div>
                         <div class="form-note" style="color: red; margin-bottom: 10px;">
                             <h6>Note:</h6>
@@ -443,111 +443,84 @@
                 </div>
             </div>
 
-           <!-- JOB 4: Senior Technical Staff Engineer - DFT -->
-        <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
-            <div class="card-body">
-                <h5 class="card-title">Senior Technical Staff Engineer - DFT</h5>
-                <div class="job-details">
-                    <p><i class="bi bi-geo-alt"></i> Hyderabad, India; San Jose, California; Chandler, Arizona</p>
-                    <p><i class="bi bi-briefcase"></i> Full Time</p>
-                </div>
-                <div class="card-buttons">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
-                        onclick="on('overlay1-dft', 'apply-form-dft')">Apply
-                        Now</button>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                        data-bs-target="#jobDescriptionModal" onclick="on('overlay2-dft', 'job-description-dft')">Job
-                        Description</button>
-                </div>
-                <div class="overlay" id="overlay1-dft" onclick="off('overlay1-dft', 'apply-form-dft')"></div>
-                <form class="apply-form" id="apply-form-dft" action="mailto:recruit@uandwe.com?subject=Job Application"
-                    method="POST" enctype="text/plain">
-                    <div class="form-title">
-                        Application Form
+            <!-- JOB 4: Python Developer -->
+            <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
+                <div class="card-body">
+                    <h5 class="card-title">Python Developer</h5>
+                    <div class="job-details">
+                        <p><i class="bi bi-geo-alt"></i> Chennai, India</p>
+                        <p><i class="bi bi-briefcase"></i> Full Time</p>
                     </div>
-                    <div class="form-field">
-                        <input type="text" id="job-title" name="job-title" value="Senior Technical Staff Engineer - DFT"
-                            hidden>
+                    <div class="card-buttons">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
+                            onclick="on('overlay1-python', 'apply-form-python')">Apply
+                            Now</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#jobDescriptionModal" onclick="on('overlay2-python', 'job-description-python')">Job
+                            Description</button>
                     </div>
-                    <div class="form-field">
-                        <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name" name="first-name" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name" name="last-name" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="email">Email ID:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="contact-number">Contact Number:</label>
-                        <input type="tel" id="contact-number" name="contact-number" required>
-                    </div>
-                    <div class="form-note" style="color: red; margin-bottom: 10px;">
-                        <h6>Note:</h6>
+                    <div class="overlay" id="overlay1-python" onclick="off('overlay1-python', 'apply-form-python')"></div>
+                    <form class="apply-form" id="apply-form-python" action="mailto:recruit@uandwe.com?subject=Job Application"
+                        method="POST" enctype="text/plain">
+                        <div class="form-title">
+                            Application Form
+                        </div>
+                        <div class="form-field">
+                            <input type="text" id="job-title-python" name="job-title" value="Python Developer"
+                                hidden>
+                        </div>
+                        <div class="form-field">
+                            <label for="first-name-python">First Name:</label>
+                            <input type="text" id="first-name-python" name="first-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name-python">Last Name:</label>
+                            <input type="text" id="last-name-python" name="last-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email-python">Email ID:</label>
+                            <input type="email" id="email-python" name="email" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="contact-number-python">Contact Number:</label>
+                            <input type="tel" id="contact-number-python" name="contact-number" required>
+                        </div>
+                        <div class="form-note" style="color: red; margin-bottom: 10px;">
+                            <h6>Note:</h6>
+                            <ul>
+                                <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
+                                    resume before sending the mail.</li>
+                                <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
+                                    the necessary details and enclosed resume.</li>
+                            </ul>
+                        </div>
+                        <button type="submit" class="submit-button">Next</button>
+                    </form>
+                    <div class="overlay" id="overlay2-python" onclick="off('overlay2-python', 'job-description-python')"></div>
+                    <div class="job-description" id="job-description-python">
+                        <h2>Job Description</h2>
+                        <h3>Location: <span style="color: black">Chennai, India</span></h3>
+
+                        <h3>Job Responsibilities:</h3>
                         <ul>
-                            <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
-                                resume before sending the mail.</li>
-                            <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
-                                the necessary details and enclosed resume.</li>
+                            <li>Strong working knowledge on Python and Django Web Framework</li>
+                            <li>Strong working knowledge on web page development – HTML, CSS, JQuery</li>
+                            <li>Strong knowledge on Web UI design</li>
+                            <li>Working knowledge on relational databases especially PostgreSQL</li>
+                            <li>Working knowledge on both Linux and Windows environments</li>
+                            <li>Self-motivated team player</li>
+                            <li>Good written and verbal communication skills</li>
+                            <li>Experience with Python-based AI libraries would be a plus</li>
+                        </ul>
+
+                        <h3>Education & Experience:</h3>
+                        <ul>
+                            <li><strong>Education:</strong> B.E / B.Tech / M.E / M.Tech in Computer Science or Information Technology</li>
+                            <li><strong>Experience:</strong> 2 – 5 years</li>
                         </ul>
                     </div>
-                    <button type="submit" class="submit-button">Next</button>
-                </form>
-                <div class="overlay" id="overlay2-dft" onclick="off('overlay2-dft', 'job-description-dft')"></div>
-                <div class="job-description" id="job-description-dft">
-                    <h2>Job Description</h2>
-                    <h3>Location: <span style="color: black"> Hyderabad, India; San Jose, California; Chandler,
-                            Arizona</span></h3>
-
-                    <h3>Key Responsibilities:</h3>
-                    <ul>
-                        <li>Define and develop DFT methodologies for ASIC designs to ensure high testability and fault
-                            coverage</li>
-                        <li>Architect and implement scan, JTAG, and memory BIST (MBIST)</li>
-                        <li>Optimize DFT strategy to balance test coverage, performance, and area constraints</li>
-                        <li>Develop and integrate DFT structures such as scan networks, scan chains, boundary scan,
-                            MBIST, LBIST, and built-in self-test (BIST)</li>
-                        <li>Generate and verify ATPG (Automatic Test Pattern Generation) patterns for fault coverage
-                            analysis</li>
-                        <li>Work with RTL design engineers to ensure DFT compliance in Verilog/VHDL-based designs</li>
-                        <li>Run fault simulation, stuck-at and transition fault testing, and analyze coverage reports
-                        </li>
-                        <li>Work closely with RTL, synthesis, and physical design teams to ensure DFT design integrity
-                        </li>
-                        <li>Collaborate with manufacturing and validation teams to implement test strategies for
-                            prototype bring-up</li>
-                        <li>Debug and optimize DFT networks to achieve minimal test times</li>
-                        <li>Work with EDA vendors to evaluate and integrate latest DFT tools and methodologies</li>
-                    </ul>
-
-                    <h3>Requirements/Qualifications:</h3>
-                    <ul>
-                        <li>15+ years of experience in DFT architecture and implementation</li>
-                        <li>Strong expertise in FPGA-based DFT methodologies (Xilinx, Intel/Altera, Lattice, etc.)</li>
-                        <li>Proficiency in Verilog/VHDL for FPGA design and test logic implementation</li>
-                        <li>Hands-on experience with DFT tools (Synopsys DFT Compiler, Tessent, Mentor Tessent, Cadence
-                            Modus, or similar)</li>
-                        <li>Strong knowledge of JTAG (IEEE 1149.1, 1149.6), scan insertion, ATPG, MBIST, LBIST, and
-                            fault modeling</li>
-                        <li>Experience in timing analysis and synthesis-aware DFT implementation</li>
-                        <li>Familiarity with FPGA prototyping and board bring-up</li>
-                        <li>Hands-on scripting skills in Python, TCL, Perl, or Shell for DFT automation</li>
-                    </ul>
-
-                    <h3>Preferred Qualifications:</h3>
-                    <ul>
-                        <li>Experience in AI/ML-driven DFT automation</li>
-                        <li>Knowledge of high-speed interfaces and SERDES testing</li>
-                        <li>Experience with post-silicon validation and ATE (Automated Test Equipment)</li>
-                        <li>Strong debugging skills using logic analyzers, oscilloscopes, and FPGA tools</li>
-                    </ul>
                 </div>
             </div>
-        </div>
-          
 
             <!-- JOB 5 Memory Layout Design Engineer -->
             <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
@@ -574,24 +547,24 @@
                             Application Form
                         </div>
                         <div class="form-field">
-                            <input type="text" id="job-title" name="job-title" value="Memory Layout Design Engineer"
+                            <input type="text" id="job-title-memory" name="job-title" value="Memory Layout Design Engineer"
                                 hidden>
                         </div>
                         <div class="form-field">
-                            <label for="first-name">First Name:</label>
-                            <input type="text" id="first-name" name="first-name" required>
+                            <label for="first-name-memory">First Name:</label>
+                            <input type="text" id="first-name-memory" name="first-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="last-name">Last Name:</label>
-                            <input type="text" id="last-name" name="last-name" required>
+                            <label for="last-name-memory">Last Name:</label>
+                            <input type="text" id="last-name-memory" name="last-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="email">Email ID:</label>
-                            <input type="email" id="email" name="email" required>
+                            <label for="email-memory">Email ID:</label>
+                            <input type="email" id="email-memory" name="email" required>
                         </div>
                         <div class="form-field">
-                            <label for="contact-number">Contact Number:</label>
-                            <input type="tel" id="contact-number" name="contact-number" required>
+                            <label for="contact-number-memory">Contact Number:</label>
+                            <input type="tel" id="contact-number-memory" name="contact-number" required>
                         </div>
                         <div class="form-note" style="color: red; margin-bottom: 10px;">
                             <h6>Note:</h6>
@@ -649,9 +622,7 @@
                 </div>
             </div>
 
-
-
-            <!-- job-6 Senior Design Verification Engineer -->
+            <!-- JOB 6: Senior Design Verification Engineer (FIXED IDs) -->
             <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
                 <div class="card-body">
                     <h5 class="card-title">Senior Design Verification Engineer</h5>
@@ -661,37 +632,37 @@
                     </div>
                     <div class="card-buttons">
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#applyNowModal" onclick="on('overlay1-dv', 'apply-form-dv')">Apply
+                            data-bs-target="#applyNowModal" onclick="on('overlay1-sr-dv', 'apply-form-sr-dv')">Apply
                             Now</button>
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                            data-bs-target="#jobDescriptionModal" onclick="on('overlay2-dv', 'job-description-dv')">Job
+                            data-bs-target="#jobDescriptionModal" onclick="on('overlay2-sr-dv', 'job-description-sr-dv')">Job
                             Description</button>
                     </div>
-                    <div class="overlay" id="overlay1-dv" onclick="off('overlay1-dv', 'apply-form-dv')"></div>
-                    <form class="apply-form" id="apply-form-dv"
+                    <div class="overlay" id="overlay1-sr-dv" onclick="off('overlay1-sr-dv', 'apply-form-sr-dv')"></div>
+                    <form class="apply-form" id="apply-form-sr-dv"
                         action="mailto:recruit@uandwe.com?subject=Job Application" method="POST" enctype="text/plain">
                         <div class="form-title">
                             Application Form
                         </div>
                         <div class="form-field">
-                            <input type="text" id="job-title" name="job-title"
+                            <input type="text" id="job-title-sr-dv" name="job-title"
                                 value="Senior Design Verification Engineer" hidden>
                         </div>
                         <div class="form-field">
-                            <label for="first-name">First Name:</label>
-                            <input type="text" id="first-name" name="first-name" required>
+                            <label for="first-name-sr-dv">First Name:</label>
+                            <input type="text" id="first-name-sr-dv" name="first-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="last-name">Last Name:</label>
-                            <input type="text" id="last-name" name="last-name" required>
+                            <label for="last-name-sr-dv">Last Name:</label>
+                            <input type="text" id="last-name-sr-dv" name="last-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="email">Email ID:</label>
-                            <input type="email" id="email" name="email" required>
+                            <label for="email-sr-dv">Email ID:</label>
+                            <input type="email" id="email-sr-dv" name="email" required>
                         </div>
                         <div class="form-field">
-                            <label for="contact-number">Contact Number:</label>
-                            <input type="tel" id="contact-number" name="contact-number" required>
+                            <label for="contact-number-sr-dv">Contact Number:</label>
+                            <input type="tel" id="contact-number-sr-dv" name="contact-number" required>
                         </div>
                         <div class="form-note" style="color: red; margin-bottom: 10px;">
                             <h6>Note:</h6>
@@ -704,8 +675,8 @@
                         </div>
                         <button type="submit" class="submit-button">Next</button>
                     </form>
-                    <div class="overlay" id="overlay2-dv" onclick="off('overlay2-dv', 'job-description-dv')"></div>
-                    <div class="job-description" id="job-description-dv">
+                    <div class="overlay" id="overlay2-sr-dv" onclick="off('overlay2-sr-dv', 'job-description-sr-dv')"></div>
+                    <div class="job-description" id="job-description-sr-dv">
                         <h2>Job Description</h2>
                         <h3>Location: <span style="color: black"> Bangalore, India</span></h3>
 
@@ -769,23 +740,23 @@
                             Application Form
                         </div>
                         <div class="form-field">
-                            <input type="text" id="job-title" name="job-title" value="Tech Writer" hidden>
+                            <input type="text" id="job-title-techwriter" name="job-title" value="Tech Writer" hidden>
                         </div>
                         <div class="form-field">
-                            <label for="first-name">First Name:</label>
-                            <input type="text" id="first-name" name="first-name" required>
+                            <label for="first-name-techwriter">First Name:</label>
+                            <input type="text" id="first-name-techwriter" name="first-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="last-name">Last Name:</label>
-                            <input type="text" id="last-name" name="last-name" required>
+                            <label for="last-name-techwriter">Last Name:</label>
+                            <input type="text" id="last-name-techwriter" name="last-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="email">Email ID:</label>
-                            <input type="email" id="email" name="email" required>
+                            <label for="email-techwriter">Email ID:</label>
+                            <input type="email" id="email-techwriter" name="email" required>
                         </div>
                         <div class="form-field">
-                            <label for="contact-number">Contact Number:</label>
-                            <input type="tel" id="contact-number" name="contact-number" required>
+                            <label for="contact-number-techwriter">Contact Number:</label>
+                            <input type="tel" id="contact-number-techwriter" name="contact-number" required>
                         </div>
                         <div class="form-note" style="color: red; margin-bottom: 10px;">
                             <h6>Note:</h6>
@@ -834,7 +805,7 @@
             </div>
 
             <!-- JOB 8: Analog Layout Design Engineer -->
-             <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
+            <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
                 <div class="card-body">
                     <h5 class="card-title">Analog Layout Design Engineer</h5>
                     <div class="job-details">
@@ -859,24 +830,24 @@
                             Application Form
                         </div>
                         <div class="form-field">
-                            <input type="text" id="job-title" name="job-title" value="Analog Layout Design Engineer"
+                            <input type="text" id="job-title-analoglayout" name="job-title" value="Analog Layout Design Engineer"
                                 hidden>
                         </div>
                         <div class="form-field">
-                            <label for="first-name">First Name:</label>
-                            <input type="text" id="first-name" name="first-name" required>
+                            <label for="first-name-analoglayout">First Name:</label>
+                            <input type="text" id="first-name-analoglayout" name="first-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="last-name">Last Name:</label>
-                            <input type="text" id="last-name" name="last-name" required>
+                            <label for="last-name-analoglayout">Last Name:</label>
+                            <input type="text" id="last-name-analoglayout" name="last-name" required>
                         </div>
                         <div class="form-field">
-                            <label for="email">Email ID:</label>
-                            <input type="email" id="email" name="email" required>
+                            <label for="email-analoglayout">Email ID:</label>
+                            <input type="email" id="email-analoglayout" name="email" required>
                         </div>
                         <div class="form-field">
-                            <label for="contact-number">Contact Number:</label>
-                            <input type="tel" id="contact-number" name="contact-number" required>
+                            <label for="contact-number-analoglayout">Contact Number:</label>
+                            <input type="tel" id="contact-number-analoglayout" name="contact-number" required>
                         </div>
                         <div class="form-note" style="color: red; margin-bottom: 10px;">
                             <h6>Note:</h6>
@@ -909,320 +880,310 @@
                         <h3>Education & Experience:</h3>
                         <ul>
                             <li>Bachelor's degree in Electrical Engineering, Electronics, or a related field.</li>
-                            <li>4-5 years of experience on serdes/DDR layout experience.Preferably worked on TSMC 7NM,
+                            <li>4-5 years of experience on serdes/DDR layout experience. Preferably worked on TSMC 7NM,
                                 5NM.</li>
-
                         </ul>
                     </div>
                 </div>
             </div>
      
-        <!-- JOB-9 : Post-silicon Validation Engineer -->
-        <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
-            <div class="card-body">
-                <h5 class="card-title">Post-silicon Validation Engineer</h5>
-                <div class="job-details">
-                    <p><i class="bi bi-geo-alt"></i> Shanghai, China</p>
-                    <p><i class="bi bi-briefcase"></i> Full Time</p>
-                </div>
-                <div class="card-buttons">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
-                        onclick="on('overlay1-validation', 'apply-form-validation')">Apply
-                        Now</button>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                        data-bs-target="#jobDescriptionModal"
-                        onclick="on('overlay2-validation', 'job-description-validation')">Job
-                        Description</button>
-                </div>
-                <div class="overlay" id="overlay1-validation"
-                    onclick="off('overlay1-validation', 'apply-form-validation')"></div>
-                <form class="apply-form" id="apply-form-validation"
-                    action="mailto:recruit@uandwe.com?subject=Job Application" method="POST" enctype="text/plain">
-                    <div class="form-title">
-                        Application Form
+            <!-- JOB-9 : Post-silicon Validation Engineer -->
+            <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
+                <div class="card-body">
+                    <h5 class="card-title">Post-silicon Validation Engineer</h5>
+                    <div class="job-details">
+                        <p><i class="bi bi-geo-alt"></i> Shanghai, China</p>
+                        <p><i class="bi bi-briefcase"></i> Full Time</p>
                     </div>
-                    <div class="form-field">
-                        <input type="text" id="job-title" name="job-title" value="Post-silicon Validation Engineer"
-                            hidden>
+                    <div class="card-buttons">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
+                            onclick="on('overlay1-validation', 'apply-form-validation')">Apply
+                            Now</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#jobDescriptionModal"
+                            onclick="on('overlay2-validation', 'job-description-validation')">Job
+                            Description</button>
                     </div>
-                    <div class="form-field">
-                        <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name" name="first-name" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name" name="last-name" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="email">Email ID:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="contact-number">Contact Number:</label>
-                        <input type="tel" id="contact-number" name="contact-number" required>
-                    </div>
-                    <div class="form-note" style="color: red; margin-bottom: 10px;">
-                        <h6>Note:</h6>
+                    <div class="overlay" id="overlay1-validation"
+                        onclick="off('overlay1-validation', 'apply-form-validation')"></div>
+                    <form class="apply-form" id="apply-form-validation"
+                        action="mailto:recruit@uandwe.com?subject=Job Application" method="POST" enctype="text/plain">
+                        <div class="form-title">
+                            Application Form
+                        </div>
+                        <div class="form-field">
+                            <input type="text" id="job-title-validation" name="job-title" value="Post-silicon Validation Engineer"
+                                hidden>
+                        </div>
+                        <div class="form-field">
+                            <label for="first-name-validation">First Name:</label>
+                            <input type="text" id="first-name-validation" name="first-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name-validation">Last Name:</label>
+                            <input type="text" id="last-name-validation" name="last-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email-validation">Email ID:</label>
+                            <input type="email" id="email-validation" name="email" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="contact-number-validation">Contact Number:</label>
+                            <input type="tel" id="contact-number-validation" name="contact-number" required>
+                        </div>
+                        <div class="form-note" style="color: red; margin-bottom: 10px;">
+                            <h6>Note:</h6>
+                            <ul>
+                                <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
+                                    resume before sending the mail.</li>
+                                <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
+                                    the necessary details and enclosed resume.</li>
+                            </ul>
+                        </div>
+                        <button type="submit" class="submit-button">Next</button>
+                    </form>
+                    <div class="overlay" id="overlay2-validation"
+                        onclick="off('overlay2-validation', 'job-description-validation')"></div>
+                    <div class="job-description" id="job-description-validation">
+                        <h2>Job Description</h2>
+                        <h3>Location: <span style="color: black"> Shanghai, China</span></h3>
+
+                        <h3>Job Responsibilities:</h3>
                         <ul>
-                            <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
-                                resume before sending the mail.</li>
-                            <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
-                                the necessary details and enclosed resume.</li>
+                            <li>Support post-silicon bring up, validation, and new silicon features characterization</li>
+                            <li>Support post-silicon perf/power characterization</li>
+                            <li>Set up x86 and SoC platforms for electrical and functional validation</li>
+                            <li>Execute test plan on engineering systems that involve stress testing, functional testing,
+                                power measurements, etc.</li>
+                            <li>Collect data from large number of systems, verify logs, identify
+                                failures/marginalities/outliers and report to the function owner</li>
+                            <li>Basic scripting that includes modifying existing scripts where applicable</li>
+                        </ul>
+
+                        <h3>Education & Experience:</h3>
+                        <ul>
+                            <li>BS or MS in EE, CE, CS, Systems Engineering</li>
+                            <li>2-3 years of meaningful PC HW experience</li>
+                            <li>Hands-on experience with silicon bring up, frequency and power characterization, Tester to
+                                System correlation, lab tools (oscilloscopes, multimeters, DAQ)</li>
+                            <li>Experienced with Windows, and Linux. Exposure to BIOS, drivers, and other software
+                                applications</li>
+                            <li>Experience with Perl, C/C++, tool and script development, Windows and Linux OS is a plus
+                            </li>
                         </ul>
                     </div>
-                    <button type="submit" class="submit-button">Next</button>
-                </form>
-                <div class="overlay" id="overlay2-validation"
-                    onclick="off('overlay2-validation', 'job-description-validation')"></div>
-                <div class="job-description" id="job-description-validation">
-                    <h2>Job Description</h2>
-                    <h3>Location: <span style="color: black"> Shanghai, China</span></h3>
-
-                    <h3>Job Responsibilities:</h3>
-                    <ul>
-                        <li>Support post-silicon bring up, validation, and new silicon features characterization</li>
-                        <li>Support post-silicon perf/power characterization</li>
-                        <li>Set up x86 and SoC platforms for electrical and functional validation</li>
-                        <li>Execute test plan on engineering systems that involve stress testing, functional testing,
-                            power measurements, etc.</li>
-                        <li>Collect data from large number of systems, verify logs, identify
-                            failures/marginalities/outliers and report to the function owner</li>
-                        <li>Basic scripting that includes modifying existing scripts where applicable</li>
-                    </ul>
-
-                    <h3>Education & Experience:</h3>
-                    <ul>
-                        <li>BS or MS in EE, CE, CS, Systems Engineering</li>
-                        <li>2-3 years of meaningful PC HW experience</li>
-                        <li>Hands-on experience with silicon bring up, frequency and power characterization, Tester to
-                            System correlation, lab tools (oscilloscopes, multimeters, DAQ)</li>
-                        <li>Experienced with Windows, and Linux. Exposure to BIOS, drivers, and other software
-                            applications</li>
-                        <li>Experience with Perl, C/C++, tool and script development, Windows and Linux OS is a plus
-                        </li>
-                    </ul>
                 </div>
             </div>
-        </div>
 
-        <!-- JOB -10: Lab Operation Engineer -->
-        <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
-            <div class="card-body">
-                <h5 class="card-title">Lab Operation Engineer</h5>
-                <div class="job-details">
-                    <p><i class="bi bi-geo-alt"></i> Shanghai, China</p>
-                    <p><i class="bi bi-briefcase"></i> Full Time</p>
-                </div>
-                <div class="card-buttons">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
-                        onclick="on('overlay1-labops', 'apply-form-labops')">Apply
-                        Now</button>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                        data-bs-target="#jobDescriptionModal"
-                        onclick="on('overlay2-labops', 'job-description-labops')">Job
-                        Description</button>
-                </div>
-                <div class="overlay" id="overlay1-labops" onclick="off('overlay1-labops', 'apply-form-labops')"></div>
-                <form class="apply-form" id="apply-form-labops"
-                    action="mailto:recruit@uandwe.com?subject=Job Application" method="POST" enctype="text/plain">
-                    <div class="form-title">
-                        Application Form
+            <!-- JOB -10: Lab Operation Engineer -->
+            <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
+                <div class="card-body">
+                    <h5 class="card-title">Lab Operation Engineer</h5>
+                    <div class="job-details">
+                        <p><i class="bi bi-geo-alt"></i> Shanghai, China</p>
+                        <p><i class="bi bi-briefcase"></i> Full Time</p>
                     </div>
-                    <div class="form-field">
-                        <input type="text" id="job-title" name="job-title" value="Lab Operation Engineer" hidden>
+                    <div class="card-buttons">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
+                            onclick="on('overlay1-labops', 'apply-form-labops')">Apply
+                            Now</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#jobDescriptionModal"
+                            onclick="on('overlay2-labops', 'job-description-labops')">Job
+                            Description</button>
                     </div>
-                    <div class="form-field">
-                        <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name" name="first-name" required>
+                    <div class="overlay" id="overlay1-labops" onclick="off('overlay1-labops', 'apply-form-labops')"></div>
+                    <form class="apply-form" id="apply-form-labops"
+                        action="mailto:recruit@uandwe.com?subject=Job Application" method="POST" enctype="text/plain">
+                        <div class="form-title">
+                            Application Form
+                        </div>
+                        <div class="form-field">
+                            <input type="text" id="job-title-labops" name="job-title" value="Lab Operation Engineer" hidden>
+                        </div>
+                        <div class="form-field">
+                            <label for="first-name-labops">First Name:</label>
+                            <input type="text" id="first-name-labops" name="first-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name-labops">Last Name:</label>
+                            <input type="text" id="last-name-labops" name="last-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email-labops">Email ID:</label>
+                            <input type="email" id="email-labops" name="email" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="contact-number-labops">Contact Number:</label>
+                            <input type="tel" id="contact-number-labops" name="contact-number" required>
+                        </div>
+                        <div class="form-note" style="color: red; margin-bottom: 10px;">
+                            <h6>Note:</h6>
+                            <ul>
+                                <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
+                                    resume before sending the mail.</li>
+                                <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
+                                    the necessary details and enclosed resume.</li>
+                            </ul>
+                        </div>
+                        <button type="submit" class="submit-button">Next</button>
+                    </form>
+                    <div class="overlay" id="overlay2-labops" onclick="off('overlay2-labops', 'job-description-labops')">
                     </div>
-                    <div class="form-field">
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name" name="last-name" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="email">Email ID:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="contact-number">Contact Number:</label>
-                        <input type="tel" id="contact-number" name="contact-number" required>
-                    </div>
-                    <div class="form-note" style="color: red; margin-bottom: 10px;">
-                        <h6>Note:</h6>
+                    <div class="job-description" id="job-description-labops">
+                        <h2>Job Description</h2>
+                        <h3>Location: <span style="color: black"> Shanghai, China</span></h3>
+
+                        <h3>Job Responsibilities:</h3>
                         <ul>
-                            <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
-                                resume before sending the mail.</li>
-                            <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
-                                the necessary details and enclosed resume.</li>
+                            <li>Lab management to boost up use efficiency, improve test capacity and capability</li>
+                            <li>Lab safety and security control to be compliance with company policies</li>
+                            <li>Lab PCW cooling water system support</li>
+                            <li>Support lab manager with USA/India peers to drive copy exactly in English</li>
+                            <li>Support lab manager with any other assign lab related task</li>
+                        </ul>
+
+                        <h3>Education & Experience:</h3>
+                        <ul>
+                            <li>A Bachelor on Mechanical and Automation engineering is must</li>
+                            <li>Minimum of 2 years with engineering working experience</li>
+                            <li>Excellent in English communication. CET 6, TOFF certification is a plus</li>
+                            <li>Excellent on Office software tools use for data analysis and report out</li>
+                            <li>Interesting lab related work and Service spirit is a plus</li>
+                            <li>Self-motivated individual who is capable of handling multiple tasks at a time</li>
+                            <li>Service spirit with strong communication skills</li>
                         </ul>
                     </div>
-                    <button type="submit" class="submit-button">Next</button>
-                </form>
-                <div class="overlay" id="overlay2-labops" onclick="off('overlay2-labops', 'job-description-labops')">
-                </div>
-                <div class="job-description" id="job-description-labops">
-                    <h2>Job Description</h2>
-                    <h3>Location: <span style="color: black"> Shanghai, China</span></h3>
-
-                    <h3>Job Responsibilities:</h3>
-                    <ul>
-                        <li>Lab management to boost up use efficiency, improve test capacity and capability</li>
-                        <li>Lab safety and security control to be compliance with company policies</li>
-                        <li>Lab PCW cooling water system support</li>
-                        <li>Support lab manager with USA/India peers to drive copy exactly in English</li>
-                        <li>Support lab manager with any other assign lab related task</li>
-                    </ul>
-
-                    <h3>Education & Experience:</h3>
-                    <ul>
-                        <li>A Bachelor on Mechanical and Automation engineering is must</li>
-                        <li>Minimum of 2 years with engineering working experience</li>
-                        <li>Excellent in English communication. CET 6, TOFF certification is a plus</li>
-                        <li>Excellent on Office software tools use for data analysis and report out</li>
-                        <li>Interesting lab related work and Service spirit is a plus</li>
-                        <li>Self-motivated individual who is capable of handling multiple tasks at a time</li>
-                        <li>Service spirit with strong communication skills</li>
-                    </ul>
                 </div>
             </div>
-        </div>
 
-        <!-- JOB-11:FPGA Design Verification Engineer -->
-        <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
-            <div class="card-body">
-                <h5 class="card-title"> FPGA Design Verification Engineer</h5>
-                <div class="job-details">
-                    <p><i class="bi bi-geo-alt"></i> Bangalore, India</p>
-                    <p><i class="bi bi-briefcase"></i> Full Time</p>
-                </div>
-                <div class="card-buttons">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
-                        onclick="on('overlay1-dv', 'apply-form-dv')">Apply
-                        Now</button>
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                        data-bs-target="#jobDescriptionModal" onclick="on('overlay2-dv', 'job-description-dv')">Job
-                        Description</button>
-                </div>
-                <div class="overlay" id="overlay1-dv" onclick="off('overlay1-dv', 'apply-form-dv')"></div>
-                <form class="apply-form" id="apply-form-dv" action="mailto:recruit@uandwe.com?subject=Job Application"
-                    method="POST" enctype="text/plain">
-                    <div class="form-title">
-                        Application Form
+            <!-- JOB-11: FPGA Design Verification Engineer (FIXED IDs) -->
+            <div class="card job-listing" data-expiry="2026-03-31T00:00:00Z">
+                <div class="card-body">
+                    <h5 class="card-title">FPGA Design Verification Engineer</h5>
+                    <div class="job-details">
+                        <p><i class="bi bi-geo-alt"></i> Bangalore, India</p>
+                        <p><i class="bi bi-briefcase"></i> Full Time</p>
                     </div>
-                    <div class="form-field">
-                        <input type="text" id="job-title" name="job-title" value="Design Verification Engineer" hidden>
+                    <div class="card-buttons">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
+                            onclick="on('overlay1-fpga-dv', 'apply-form-fpga-dv')">Apply
+                            Now</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#jobDescriptionModal" onclick="on('overlay2-fpga-dv', 'job-description-fpga-dv')">Job
+                            Description</button>
                     </div>
-                    <div class="form-field">
-                        <label for="first-name">First Name:</label>
-                        <input type="text" id="first-name" name="first-name" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="last-name">Last Name:</label>
-                        <input type="text" id="last-name" name="last-name" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="email">Email ID:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-field">
-                        <label for="contact-number">Contact Number:</label>
-                        <input type="tel" id="contact-number" name="contact-number" required>
-                    </div>
-                    <div class="form-note" style="color: red; margin-bottom: 10px;">
-                        <h6>Note:</h6>
+                    <div class="overlay" id="overlay1-fpga-dv" onclick="off('overlay1-fpga-dv', 'apply-form-fpga-dv')"></div>
+                    <form class="apply-form" id="apply-form-fpga-dv" action="mailto:recruit@uandwe.com?subject=Job Application"
+                        method="POST" enctype="text/plain">
+                        <div class="form-title">
+                            Application Form
+                        </div>
+                        <div class="form-field">
+                            <input type="text" id="job-title-fpga-dv" name="job-title" value="FPGA Design Verification Engineer" hidden>
+                        </div>
+                        <div class="form-field">
+                            <label for="first-name-fpga-dv">First Name:</label>
+                            <input type="text" id="first-name-fpga-dv" name="first-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="last-name-fpga-dv">Last Name:</label>
+                            <input type="text" id="last-name-fpga-dv" name="last-name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email-fpga-dv">Email ID:</label>
+                            <input type="email" id="email-fpga-dv" name="email" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="contact-number-fpga-dv">Contact Number:</label>
+                            <input type="tel" id="contact-number-fpga-dv" name="contact-number" required>
+                        </div>
+                        <div class="form-note" style="color: red; margin-bottom: 10px;">
+                            <h6>Note:</h6>
+                            <ul>
+                                <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
+                                    resume before sending the mail.</li>
+                                <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
+                                    the necessary details and enclosed resume.</li>
+                            </ul>
+                        </div>
+                        <button type="submit" class="submit-button">Next</button>
+                    </form>
+                    <div class="overlay" id="overlay2-fpga-dv" onclick="off('overlay2-fpga-dv', 'job-description-fpga-dv')"></div>
+                    <div class="job-description" id="job-description-fpga-dv">
+                        <h2>Job Description</h2>
+                        <h3>Location: <span style="color: black"> Bangalore, India</span></h3>
+
+                        <h3>Job Responsibilities:</h3>
                         <ul>
-                            <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
-                                resume before sending the mail.</li>
-                            <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
-                                the necessary details and enclosed resume.</li>
+                            <li>Architect block, cluster and top-level DV environment infrastructure</li>
+                            <li>Develop DV infrastructure from scratch</li>
+                            <li>Maintain and improve existing DV environments</li>
+                            <li>Develop test plans and tests for qualifying design at block, cluster and higher-level
+                                environments with mix of constraint random and advised stimulus</li>
+                            <li>Ensure complete verification coverage through implementation and review of code and
+                                functional coverage</li>
+                            <li>Ensure RTL quality with qualifying the design with Gate Level Simulations on netlist</li>
+                            <li>Collaborate closely with designers, architects, and software teams to address and debug
+                                issues during post-silicon bring-up</li>
+                            <li>Support testing of design in emulation</li>
+                            <li>Lead all aspects of and manage the ASIC bring-up process</li>
+                        </ul>
+
+                        <h3>Qualifications & Experience:</h3>
+                        <ul>
+                            <li>Bachelor's degree or master's Degree in equivalent experience in EE, CE, or other related
+                                field</li>
+                            <li>7+ years of related ASIC design verification experience</li>
+                            <li>Proficient in ASIC verification using UVM/System Verilog</li>
+                            <li>Proficient in verifying sophisticated blocks, clusters and top level for ASIC</li>
+                            <li>Experience building test benches from scratch, hands on experience with System Verilog
+                                constraints, structures and classes</li>
+                            <li>Scripting experience with Perl and/or Python</li>
+                        </ul>
+
+                        <h3>Preferred Qualifications:</h3>
+                        <ul>
+                            <li>Experience with Forwarding logic/Parsers/P4</li>
+                            <li>Experience with Veloce/Palladium/Zebu/HAPS</li>
+                            <li>Formal verification (iev/vc formal) knowledge</li>
+                            <li>Demonstrated ability on one or more protocols (PCIe, Ethernet, RDMA, TCP)</li>
                         </ul>
                     </div>
-                    <button type="submit" class="submit-button">Next</button>
-                </form>
-                <div class="overlay" id="overlay2-dv" onclick="off('overlay2-dv', 'job-description-dv')"></div>
-                <div class="job-description" id="job-description-dv">
-                    <h2>Job Description</h2>
-                    <h3>Location: <span style="color: black"> Bangalore, India</span></h3>
-
-                    <h3>Job Responsibilities:</h3>
-                    <ul>
-                        <li>Architect block, cluster and top-level DV environment infrastructure</li>
-                        <li>Develop DV infrastructure from scratch</li>
-                        <li>Maintain and improve existing DV environments</li>
-                        <li>Develop test plans and tests for qualifying design at block, cluster and higher-level
-                            environments with mix of constraint random and advised stimulus</li>
-                        <li>Ensure complete verification coverage through implementation and review of code and
-                            functional coverage</li>
-                        <li>Ensure RTL quality with qualifying the design with Gate Level Simulations on netlist</li>
-                        <li>Collaborate closely with designers, architects, and software teams to address and debug
-                            issues during post-silicon bring-up</li>
-                        <li>Support testing of design in emulation</li>
-                        <li>Lead all aspects of and manage the ASIC bring-up process</li>
-                    </ul>
-
-                    <h3>Qualifications & Experience:</h3>
-                    <ul>
-                        <li>Bachelor's degree or master's Degree in equivalent experience in EE, CE, or other related
-                            field</li>
-                        <li>7+ years of related ASIC design verification experience</li>
-                        <li>Proficient in ASIC verification using UVM/System Verilog</li>
-                        <li>Proficient in verifying sophisticated blocks, clusters and top level for ASIC</li>
-                        <li>Experience building test benches from scratch, hands on experience with System Verilog
-                            constraints, structures and classes</li>
-                        <li>Scripting experience with Perl and/or Python</li>
-                    </ul>
-
-                    <h3>Preferred Qualifications:</h3>
-                    <ul>
-                        <li>Experience with Forwarding logic/Parsers/P4</li>
-                        <li>Experience with Veloce/Palladium/Zebu/HAPS</li>
-                        <li>Formal verification (iev/vc formal) knowledge</li>
-                        <li>Demonstrated ability on one or more protocols (PCIe, Ethernet, RDMA, TCP)</li>
-                    </ul>
                 </div>
             </div>
-        </div>
+        </div> <!-- Closing .jobs div -->
 
-        
-
-        
-
-   </div>
-
-
-        <!-- Move this outside the .jobs container -->
         <div class="no-jobs-message full-width">
             <p>You have reached the end of the available job openings. Please check back later for more!</p>
         </div>
+    </div>
 
-        <script>
-            function on(overlayId, formId) {
-                document.getElementById(overlayId).style.display = "block";
-                document.getElementById(formId).style.display = "block";
+    <script>
+        function on(overlayId, formId) {
+            document.getElementById(overlayId).style.display = "block";
+            document.getElementById(formId).style.display = "block";
+        }
+        function off(overlayId, formId) {
+            document.getElementById(overlayId).style.display = "none";
+            document.getElementById(formId).style.display = "none";
+        }
+        function toggleBenefits(contentId, headerElement) {
+            const content = document.getElementById(contentId);
+            const toggleLink = headerElement.querySelector('.toggle-link');
+
+            content.classList.toggle('expanded');
+
+            if (content.classList.contains('expanded')) {
+                toggleLink.textContent = 'view less';
+            } else {
+                toggleLink.textContent = '... view more';
             }
-            function off(overlayId, formId) {
-                document.getElementById(overlayId).style.display = "none";
-                document.getElementById(formId).style.display = "none";
-            }
-            function toggleBenefits(contentId, headerElement) {
-                const content = document.getElementById(contentId);
-                const toggleLink = headerElement.querySelector('.toggle-link');
+        }
+    </script>
 
-                content.classList.toggle('expanded');
-
-                if (content.classList.contains('expanded')) {
-                    toggleLink.textContent = 'view less';
-                } else {
-                    toggleLink.textContent = '... view more';
-                }
-            }
-        </script>
-
-
-
-
-        <!-- Bootstrap script -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
