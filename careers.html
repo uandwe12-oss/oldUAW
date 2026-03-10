@@ -1152,6 +1152,86 @@
                     </div>
                 </div>
             </div>
+            <!-- JOB-12: Signal Integrity Engineer (FIXED IDs) -->
+<div class="card job-listing" >
+    <div class="card-body">
+        <h5 class="card-title">Signal Integrity Engineer</h5>
+        <div class="job-details">
+            <p><i class="bi bi-geo-alt"></i> Bangalore, India</p>
+            <p><i class="bi bi-briefcase"></i> Full Time</p>
+        </div>
+        <div class="card-buttons">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#applyNowModal"
+                onclick="on('overlay1-si', 'apply-form-si')">Apply
+                Now</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#jobDescriptionModal" onclick="on('overlay2-si', 'job-description-si')">Job
+                Description</button>
+        </div>
+        <div class="overlay" id="overlay1-si" onclick="off('overlay1-si', 'apply-form-si')"></div>
+        <form class="apply-form" id="apply-form-si" action="mailto:recruit@uandwe.com?subject=Job Application"
+            method="POST" enctype="text/plain">
+            <div class="form-title">
+                Application Form
+            </div>
+            <div class="form-field">
+                <input type="text" id="job-title-si" name="job-title" value="Signal Integrity Engineer" hidden>
+            </div>
+            <div class="form-field">
+                <label for="first-name-si">First Name:</label>
+                <input type="text" id="first-name-si" name="first-name" required>
+            </div>
+            <div class="form-field">
+                <label for="last-name-si">Last Name:</label>
+                <input type="text" id="last-name-si" name="last-name" required>
+            </div>
+            <div class="form-field">
+                <label for="email-si">Email ID:</label>
+                <input type="email" id="email-si" name="email" required>
+            </div>
+            <div class="form-field">
+                <label for="contact-number-si">Contact Number:</label>
+                <input type="tel" id="contact-number-si" name="contact-number" required>
+            </div>
+            <div class="form-note" style="color: red; margin-bottom: 10px;">
+                <h6>Note:</h6>
+                <ul>
+                    <li>Clicking on the 'Next' button will open your default mail app. Kindly attach your
+                        resume before sending the mail.</li>
+                    <li>In case of absence of / faulty mail app please mail 'recruit@uandwe.com' with
+                        the necessary details and enclosed resume.</li>
+                </ul>
+            </div>
+            <button type="submit" class="submit-button">Next</button>
+        </form>
+        <div class="overlay" id="overlay2-si" onclick="off('overlay2-si', 'job-description-si')"></div>
+        <div class="job-description" id="job-description-si">
+            <h2>Job Description</h2>
+            <h3>Location: <span style="color: black"> Bangalore, India</span></h3>
+
+            <h3>Job Responsibilities:</h3>
+            <ul>
+                <li>Responsible for conducting end-to-end Signal integrity simulations for the High speed IO channels(>=112G) to meet the timing and Voltage specifications.</li>
+                <li>Responsible for modeling of the Package and board for the channel.</li>
+                <li>Optimization of the Package and board design for enabling the best channel margins.</li>
+                <li>Provide inputs for the cross functional teams (Silicon, Package and Board).</li>
+                <li>Driving the materials and connectors/cables for the platform.</li>
+            </ul>
+
+            <h3>Qualifications & Experience:</h3>
+            <ul>
+                <li>More than 10 years of industry experience in Signal integrity modeling and Analysis for Package and platform.</li>
+                <li>Prior experience working on the PCIe Gen6 or ethernet 112G interfaces.</li>
+                <li>Strong Fundamental in transmission line theory and EM simulations tools.</li>
+                <li>Understanding of the latest PCIE and Ethernet standards.</li>
+                <li>Understanding of the various connector and Cable technologies (CDFP, QSFP, OSFP, Backplane, DAC, AEC, AOC).</li>
+                <li>Experience with Signal integrity modeling and simulations tools (like ADS SI/RFPRO, HFSS).</li>
+                <li>Experience with Signal integrity analysis tools (like ADS, HSPICE, Sigrity).</li>
+                <li>Understanding of the Package and PCB Stack-up.</li>
+            </ul>
+        </div>
+    </div>
+</div>
         </div> <!-- Closing .jobs div -->
 
         <div class="no-jobs-message full-width">
