@@ -1,1 +1,7 @@
+RewriteEngine On
+RewriteBase /myuandwe/
+RewriteRule ^index\.html$ - [L]
 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /myuandwe/index.html [L]
